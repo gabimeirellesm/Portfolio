@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import iconGithub from "../Images/iconGithub.png";
 import iconLinkedin from "../Images/iconLinkedin.png";
+import ArrowDown from "../Components/ArrowDown";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -25,14 +26,17 @@ function Contact() {
 
   return (
     <section id="section4">
+      <ArrowDown />
       <div className="contact-wrapper">
         <div className="contact-info">
           <h2>LET'S WORK TOGETHER</h2>
           <p>
-            Feel free to leave me a message via the form, or you can get a hold
-            of me at gb.meirellesmartins@gmail.com
+            I'm a firm believer in the power of collaboration to achieve
+            innovative and effective solutions. Let's team up and bring your
+            ideas to life! Whether you prefer to use the contact form or email
+            me at gb.meirellesmartins@gmail.com, I'm excited to hear from you.
           </p>
-          <p>Lets create something beautiful and impactful.</p>
+          <p>Together, we can craft something truly remarkable.</p>
           <hr />
           <ul>
             <li>
@@ -70,7 +74,8 @@ function Contact() {
           <button type="submit">Send Message</button>
         </form>
       </div>
-      <style jsx>{`
+      <style jsx="true">{`
+        @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
         #section4 {
           background-color: #f4f4f4;
           padding: 80px 0;
@@ -89,6 +94,7 @@ function Contact() {
           color: #333;
           text-align: left;
           margin-left: 2rem;
+          margin-right: 2rem;
         }
 
         .contact-info ul {
@@ -105,41 +111,52 @@ function Contact() {
         }
 
         .contact-info img {
-          width: 3rem;
+          width: 2rem;
         }
 
         .contact-info hr {
-          width: 75%;
+          width: 65%;
           border: 0;
-          height: 3px;
+          height: 2.5px;
           background-color: #181818;
-          margin: 50px auto;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
         }
 
         .contact-info h2 {
+          font-family: "Montserrat", sans-serif;
           font-size: 2.5rem;
-          margin-bottom: 30px;
+          margin-bottom: 1rem;
         }
 
+        .contact-info p {
+          font-size: 1.2rem;
+          line-height: 1.5;
+          margin-bottom: 1.5rem;
+          margin-right: 1rem;
+          font-family: "Amiri Quran", serif;
+        }
         .contact-form {
           width: 40%;
           display: flex;
           flex-direction: column;
           align-items: center;
           margin-right: 2rem;
+          font-family: "Amiri Quran", serif;
         }
 
         .contact-form input,
         .contact-form textarea {
           width: 100%;
-          padding: 10px;
-          margin-bottom: 20px;
+          margin-bottom: 30px;
           border: none;
-          font-size: 1.2rem;
+          font-size: 1rem;
           color: #333;
           background-color: #fff;
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
           transition: all 0.3s ease-in-out;
+          font-family: "Amiri Quran", serif;
+          padding-left: 1rem;
         }
 
         .contact-form input:focus,
@@ -150,6 +167,7 @@ function Contact() {
 
         .contact-form textarea {
           height: 150px;
+          font-family: "Amiri Quran", serif;
         }
 
         .contact-form button[type="submit"] {
@@ -160,12 +178,14 @@ function Contact() {
           font-size: 1.2rem;
           cursor: pointer;
           transition: all 0.3s ease-in-out;
+          font-family: "Montserrat", sans-serif;
         }
 
         .contact-form button[type="submit"]:hover {
           background-color: #fff;
           color: #333;
           border: 1px solid #333;
+          font-family: "Montserrat", sans-serif;
         }
 
         @media screen and (max-width: 768px) {
