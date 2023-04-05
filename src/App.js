@@ -1,15 +1,14 @@
 import "./App.css";
 import React from "react";
-import Navbar from "../src/Components/Navbar.js";
 import Home from "./Views/Home";
 import About from "./Views/About";
 import Projects from "./Views/Projects";
 import Contact from "./Views/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <section id="section1">
         <Home />
       </section>
@@ -22,6 +21,7 @@ function App() {
       <section id="section4">
         <Contact />
       </section>
+      <Footer />
     </div>
   );
 }
