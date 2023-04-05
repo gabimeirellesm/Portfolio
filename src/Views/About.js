@@ -66,12 +66,11 @@ function About() {
           <p>
             With previous work in administration and experience in various
             sectors, with a focus on fashion and retail, I developed a keen
-            ability to deal with people and their needs. My transition to the
-            programming field allowed me to combine this ability with my passion
-            for technology and create creative and innovative solutions, further
-            developing a sharp eye for design and beauty. I believe all of this
-            facilitates applying my creativity and sensitivity to create
-            intuitive and attractive interfaces.
+            ability to deal with people and their needs. This ability along with
+            my passion for technology has allowed me to further develop a sharp
+            eye for design and beauty, resulting in the creation of innovative
+            solutions. I believe all of this facilitates applying my creativity
+            and sensitivity to create intuitive and attractive interfaces.
           </p>
         </div>
         <style jsx="true">{`

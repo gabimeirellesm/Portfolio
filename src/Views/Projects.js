@@ -16,29 +16,41 @@ function Projects() {
           Express.js, Bootstrap, Handlebars, Axios, and REST APIs. These
           projects included the creation of a cocktail recipe generator, a
           travel tracking application where users can select and comment on
-          visited countries, and a horror game using JavaScript, HTML, and
+          visited countries, and a horror game using JavaScript, HTML and
           Canvas.
         </p>
         <div class="vl"></div>
         <p className="pRight">
-          All projects were completed in 4 days for Ironhack, and I aimed to
+          Each project were completed in 4 days for Ironhack, and I aimed to
           apply the concepts and skills learned in the development of
-          applications and software. Today, I work on an internal project
-          building a mobile application using React Native. All of these
-          projects were completed during my learning and practice period, and I
-          would be happy to receive any contributions and feedback.
+          applications and software. All of these projects were completed during
+          my learning and practice period, and I would be happy to receive any
+          contributions and feedback. Today, I work on an internal project
+          building a mobile application using React Native.
         </p>
       </div>
       <div className="gifProjects">
-        <a href="https://gabimeirellesm.github.io/Project1/">
+        <a
+          href="https://gabimeirellesm.github.io/Project1/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={gifScaryGame} alt="link to scary game project" />
         </a>
 
-        <a href="https://trace-your-road.cyclic.app/">
+        <a
+          href="https://trace-your-road.cyclic.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={gifTraceYourRoad} alt="link to trace your road project" />
         </a>
 
-        <a href="https://drinkgenerator.netlify.app/">
+        <a
+          href="https://drinkgenerator.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={gifDrinkGenerator} alt="link to drink generator project" />
         </a>
       </div>
@@ -92,7 +104,6 @@ function Projects() {
           display: flex;
           justify-content: space-around;
         }
-
         .gifProjects a {
         }
 
