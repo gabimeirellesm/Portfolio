@@ -1,11 +1,51 @@
 import React from "react";
 import perfil from "../Images/perfil.png";
-import ArrowDown from "../Components/ArrowDown";
+import { RiArrowDownSLine } from "react-icons/ri";
 
 function About() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      window.requestAnimationFrame(() => {
+        const nextElement = element.nextElementSibling;
+        if (nextElement) {
+          nextElement.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    }
+  };
   return (
-    <section id="section2">
-      <ArrowDown />
+    <section>
+      {/*       <section className="about-button-container">
+        <button onClick={() => scrollToSection("section2")} className="arrow2">
+          <RiArrowDownSLine />
+        </button>
+        <style jsx="true">{`
+          .about-button-container {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9999;
+            margin: 1rem 2rem;
+          }
+
+          .arrow2 {
+            font-size: 30px;
+            color: #555;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+          }
+
+          .arrow2:hover {
+            background-color: #181818;
+            max-height: 30px;
+            color: #fff;
+          }
+        `}</style>
+      </section> */}
       <div className="about">
         <img src={perfil} alt="foto Gabriela Meirelles" />
         <div className="about-text">
@@ -14,7 +54,7 @@ function About() {
             Hi, I'm Gabi! I'm a student of Administration and I have experience
             in web and mobile development. With a passion for technology and
             innovation, I decided to pursue knowledge in software development,
-            learning languages such as JavaScript, Java, and C++.
+            learning languages such as JavaScript and Java.
           </p>
           <p>
             I'm always looking for challenges and opportunities to learn and
@@ -22,6 +62,16 @@ function About() {
             personal projects, as well as being willing to learn from my
             colleagues. My curiosity, dedication, and ease in learning are
             qualities that contribute to the success of a development team.
+          </p>
+          <p>
+            With previous work in administration and experience in various
+            sectors, with a focus on fashion and retail, I developed a keen
+            ability to deal with people and their needs. My transition to the
+            programming field allowed me to combine this ability with my passion
+            for technology and create creative and innovative solutions, further
+            developing a sharp eye for design and beauty. I believe all of this
+            facilitates applying my creativity and sensitivity to create
+            intuitive and attractive interfaces.
           </p>
         </div>
         <style jsx="true">{`
