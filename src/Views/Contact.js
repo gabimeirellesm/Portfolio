@@ -12,7 +12,8 @@ function Contact() {
             I'm a firm believer in the power of collaboration to achieve
             innovative and effective solutions. Let's team up and bring your
             ideas to life! Whether you prefer to use the contact form or email
-            me at gb.meirellesmartins@gmail.com, I'm excited to hear from you.
+            me at <strong>gb.meirellesmartins@gmail.com</strong>, I'm excited to
+            hear from you.
           </p>
           <p>Together, we can craft something truly remarkable.</p>
           <hr />
