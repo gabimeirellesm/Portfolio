@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import iconGithub from "../Images/iconGithub.png";
 import iconLinkedin from "../Images/iconLinkedin.png";
-import ArrowDown from "../Components/ArrowDown";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -25,8 +24,7 @@ function Contact() {
   };
 
   return (
-    <section id="section4">
-      <ArrowDown />
+    <section>
       <div className="contact-wrapper">
         <div className="contact-info">
           <h2>LET'S WORK TOGETHER</h2>
@@ -54,7 +52,7 @@ function Contact() {
         <form
           className="contact-form"
           method="post"
-          action="https://formspree.io/f/xyylbejy"
+          action="https://formspree.io/f/mzbqjnez"
         >
           <input type="text" name="name" placeholder="Name*" required />
           <input
