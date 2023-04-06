@@ -22,6 +22,21 @@ function App() {
         <Contact />
       </section>
       <Footer />
+      <style jsx="true">{`
+        section {
+          position: relative;
+          padding: 0;
+          margin: 0;
+          margin-bottom: 3rem;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        #section4 {
+          margin-bottom: 0;
+        }
+      `}</style>
     </div>
   );
 }

@@ -56,16 +56,11 @@ function Projects() {
       </div>
       <style jsx="true">{`
         @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
-        #section3 {
-          width: 100%;
-          padding: 80px 0;
-        }
         .container {
-          height: 100vh;
+          margin: 50px 0;
         }
 
         .title-container {
-          margin-bottom: 1rem;
           margin-left: 4rem;
           margin-right: 4rem;
         }
@@ -73,6 +68,7 @@ function Projects() {
         h2 {
           font-family: "Montserrat", sans-serif;
           font-size: 2rem;
+          margin-bottom: 1rem;
         }
 
         .text-container {

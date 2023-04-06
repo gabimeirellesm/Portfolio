@@ -57,7 +57,10 @@ function Contact() {
         @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
         #section4 {
           background-color: #f4f4f4;
-          padding: 80px 0;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
         }
 
         .contact-wrapper {

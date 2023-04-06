@@ -4,7 +4,7 @@ import Cv from "../Components/Cv";
 
 function Home() {
   return (
-    <section className="video-wrapper">
+    <section>
       <Cv />
       <img src={gifHomePage} alt="video Gabriela Meirelles" />
       <style jsx="true">{`
