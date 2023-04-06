@@ -1,51 +1,9 @@
 import React from "react";
 import perfil from "../Images/perfil.png";
-import { RiArrowDownSLine } from "react-icons/ri";
 
 function About() {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      window.requestAnimationFrame(() => {
-        const nextElement = element.nextElementSibling;
-        if (nextElement) {
-          nextElement.scrollIntoView({ behavior: "smooth" });
-        }
-      });
-    }
-  };
   return (
     <section>
-      {/*       <section className="about-button-container">
-        <button onClick={() => scrollToSection("section2")} className="arrow2">
-          <RiArrowDownSLine />
-        </button>
-        <style jsx="true">{`
-          .about-button-container {
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 9999;
-            margin: 1rem 2rem;
-          }
-
-          .arrow2 {
-            font-size: 30px;
-            color: #555;
-            border: none;
-            background-color: transparent;
-            cursor: pointer;
-            padding: 0;
-            margin: 0;
-          }
-
-          .arrow2:hover {
-            background-color: #181818;
-            max-height: 30px;
-            color: #fff;
-          }
-        `}</style>
-      </section> */}
       <div className="about">
         <img src={perfil} alt="foto Gabriela Meirelles" />
         <div className="about-text">
