@@ -1,28 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import iconGithub from "../Images/iconGithub.png";
 import iconLinkedin from "../Images/iconLinkedin.png";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const data = {
-      name,
-      email,
-      phone,
-      message,
-    };
-    console.log(data);
-    setName("");
-    setEmail("");
-    setPhone("");
-    setMessage("");
-  };
-
   return (
     <section>
       <div className="contact-wrapper">
