@@ -61,6 +61,21 @@ function About() {
             margin-right: 1rem;
             font-family: "Amiri Quran", serif;
           }
+
+          @media screen and (max-width: 768px) {
+            .about {
+              flex-direction: column-reverse;
+            }
+
+            .about img {
+              max-width: 100%;
+              margin-right: 0;
+            }
+
+            .about-text {
+              margin: 5rem;
+            }
+          }
         `}</style>
       </div>
     </section>

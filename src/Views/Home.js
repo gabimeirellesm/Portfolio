@@ -15,6 +15,13 @@ function Home() {
           height: 100%;
           object-fit: cover;
         }
+        @media only screen and (max-width: 768px) {
+          img {
+            position: relative;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
       `}</style>
     </section>
   );

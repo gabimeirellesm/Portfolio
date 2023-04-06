@@ -48,6 +48,15 @@ function Cv() {
           border: 1px solid #333;
           font-family: "Montserrat", sans-serif;
         }
+
+        @media only screen and (max-width: 768px) {
+          .home-button-container {
+            top: 1rem;
+            right: 2rem;
+            margin: 0px;
+            width: 7rem;
+          }
+        }
       `}</style>
     </div>
   );

@@ -36,6 +36,14 @@ function App() {
         #section4 {
           margin-bottom: 0;
         }
+        @media only screen and (max-width: 768px) {
+          #section {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        }
       `}</style>
     </div>
   );

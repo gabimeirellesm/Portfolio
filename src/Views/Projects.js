@@ -6,28 +6,30 @@ import gifDrinkGenerator from "../Images/gifDrinkGenerator.gif";
 function Projects() {
   return (
     <section className="container">
-      <div className="title-container">
-        <h2>My projects</h2>
-      </div>
-      <div className="text-container">
-        <p className="pLeft">
-          The projects involved the construction of applications and software
-          using various technologies such as CSS, JavaScript, MongoDB, Node.js,
-          Express.js, Bootstrap, Handlebars, Axios, and REST APIs. These
-          projects included the creation of a cocktail recipe generator, a
-          travel tracking application where users can select and comment on
-          visited countries, and a horror game using JavaScript, HTML and
-          Canvas.
-        </p>
-        <div class="vl"></div>
-        <p className="pRight">
-          Each project were completed in 4 days for Ironhack, and I aimed to
-          apply the concepts and skills learned in the development of
-          applications and software. All of these projects were completed during
-          my learning and practice period, and I would be happy to receive any
-          contributions and feedback. Today, I work on an internal project
-          building a mobile application using React Native.
-        </p>
+      <div className="projects-text">
+        <div className="title-container">
+          <h2>My projects</h2>
+        </div>
+        <div className="text-container">
+          <p className="pLeft">
+            The projects involved the construction of applications and software
+            using various technologies such as CSS, JavaScript, MongoDB,
+            Node.js, Express.js, Bootstrap, Handlebars, Axios, and REST APIs.
+            These projects included the creation of a cocktail recipe generator,
+            a travel tracking application where users can select and comment on
+            visited countries, and a horror game using JavaScript, HTML and
+            Canvas.
+          </p>
+          <div class="vl"></div>
+          <p className="pRight">
+            Each project were completed in 4 days for Ironhack, and I aimed to
+            apply the concepts and skills learned in the development of
+            applications and software. All of these projects were completed
+            during my learning and practice period, and I would be happy to
+            receive any contributions and feedback. Today, I work on an internal
+            project building a mobile application using React Native.
+          </p>
+        </div>
       </div>
       <div className="gifProjects">
         <a
@@ -108,6 +110,58 @@ function Projects() {
           margin-top: 5rem;
           margin-bottom: 5rem;
           height: 15rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .projects-text {
+            margin: 5rem;
+            margin-top: 0;
+          }
+          .text-container {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+          }
+
+          h2 {
+            margin-bottom: 1rem;
+            margin-right: 0;
+            margin-left: 0;
+          }
+
+          .pLeft {
+            margin: 0;
+          }
+
+          .pRight {
+            margin: 0;
+          }
+
+          .vl {
+            border-left: none;
+            border-bottom: 2.5px solid #181818;
+            width: 15%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            height: 0;
+          }
+
+          .gifProjects {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+          }
+
+          .gifProjects a {
+            margin-bottom: 2rem;
+          }
+
+          .gifProjects img {
+            width: 100%;
+            margin: 0;
+            height: auto;
+          }
         }
       `}</style>
     </section>

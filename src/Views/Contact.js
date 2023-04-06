@@ -57,15 +57,13 @@ function Contact() {
         @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
         #section4 {
           background-color: #f4f4f4;
-          width: 100vw;
-          height: 100vh;
           display: flex;
           align-items: center;
         }
 
         .contact-wrapper {
           max-width: 100%;
-          margin: 0 auto;
+          margin-top: 5rem;
           display: flex;
           justify-content: space-around;
         }
@@ -176,7 +174,17 @@ function Contact() {
           }
           .contact-info,
           .contact-form {
-            width: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-top: 5rem;
+            margin-bottom: 0;
+          }
+
+          .contact-info hr {
+            width: 65%;
           }
         }
       `}</style>
