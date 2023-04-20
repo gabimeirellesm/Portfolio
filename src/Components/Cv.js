@@ -4,7 +4,7 @@ import { RiDownloadLine } from "react-icons/ri";
 function Cv() {
   function handleClick() {
     const url =
-      "https://www.dropbox.com/s/cnmoldd41hkkga5/Gabriela%20Meirelles%20CV%20.pdf?dl=1";
+      "https://www.dropbox.com/s/vn3ahvtvm6gw1nu/Gabriela%20Meirelles%20CV.pdf?dl=0";
     const link = document.createElement("a");
     link.href = url;
     link.setAttribute("download", "CV - Gabriela Meirelles.pdf");
