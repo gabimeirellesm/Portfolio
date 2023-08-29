@@ -12,7 +12,8 @@ function About() {
             Hi, I'm Gabi! I'm a student of Administration and I have experience
             in web and mobile development. With a passion for technology and
             innovation, I decided to pursue knowledge in software development,
-            learning languages such as JavaScript and Java.
+            learning languages and tools such as JavaScript, React, NodeJs and
+            much more.
           </p>
           <p>
             I'm always looking for challenges and opportunities to learn and
