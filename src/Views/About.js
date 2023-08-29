@@ -5,7 +5,7 @@ function About() {
   return (
     <section>
       <div className="about">
-        <img src={perfil} alt="foto Gabriela Meirelles" />
+        <img src={perfil} alt="foto da Gabriela" />
         <div className="about-text">
           <h2>About Me</h2>
           <p>

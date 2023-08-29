@@ -6,7 +6,7 @@ function Home() {
   return (
     <section>
       <Cv />
-      <img src={gifHomePage} alt="video Gabriela Meirelles" />
+      <img src={gifHomePage} alt="video da Gabriela correndo em um jardim" />
       <style jsx="true">{`
         img {
           top: 0;
