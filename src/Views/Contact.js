@@ -171,14 +171,16 @@ function Contact() {
         @media screen and (max-width: 768px) {
           .contact-wrapper {
             flex-direction: column;
+            align-items: center;
           }
           .contact-info,
           .contact-form {
             width: 80%;
             display: flex;
             flex-direction: column;
-            margin-left: 5rem;
-            margin-right: 5rem;
+
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 5rem;
             margin-bottom: 0;
           }

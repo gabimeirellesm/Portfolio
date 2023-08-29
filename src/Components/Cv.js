@@ -17,7 +17,7 @@ function Cv() {
     <div className="home-button-container">
       <button onClick={handleClick} className="arrow">
         <RiDownloadLine style={{ fontSize: "1.2rem", marginRight: "0.5rem" }} />
-        <span style={{ fontSize: "0.8rem" }}>Download CV</span>
+        <span>Download CV</span>
       </button>
       <style jsx="true">{`
         @import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Montserrat:wght@500&display=swap");
@@ -49,12 +49,23 @@ function Cv() {
           font-family: "Montserrat", sans-serif;
         }
 
+        .arrow span {
+          font-size: 0.8rem;
+        }
+
         @media only screen and (max-width: 768px) {
           .home-button-container {
             top: 1rem;
             right: 2rem;
             margin: 0px;
-            width: 7rem;
+            width: min-content;
+          }
+
+          .arrow {
+            padding: 4px 8px;
+          }
+          .arrow span {
+            font-size: 0.5rem;
           }
         }
       `}</style>
